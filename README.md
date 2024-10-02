@@ -44,36 +44,36 @@ To get the project up and running, follow these steps:
    ```bash
    git clone https://github.com/yourusername/Zomato-Review-Analysis.git
 2. Requirements:
-   -numpy
-   -pandas
-   -scikit-learn
-   -matplotlib
-   -seaborn
-   -nltk
-   -Flask (if deploying as a web app)
+   - numpy
+   - pandas
+   - scikit-learn
+   - matplotlib
+   - seaborn
+   - nltk
+   - Flask (if deploying as a web app)
 3. Model used:
    - Multinomial Naive Baiyes
-     The Multinomial Naive Bayes algorithm is one of the variations of Naive Bayes used primarily for text classification problems. It assumes that the features 
+   - The Multinomial Naive Bayes algorithm is one of the variations of Naive Bayes used primarily for text classification problems. It assumes that the features 
      follow a multinomial distribution, which makes it particularly effective for tasks like document classification or sentiment analysis, where features 
      represent discrete frequency counts such as word counts or term frequency-inverse document frequency (TF-IDF).
 4. Text Preprocessing Steps:
-   -Tokenization
-   -Stopword Removal
-   -Stemming/Lemmatization
-   -TF-IDF Vectorization
+   - Tokenization
+   - Stopword Removal
+   - Stemming/Lemmatization
+   - TF-IDF Vectorization
 5. Model Training:
-  -Training the model on labeled reviews.
-  -Splitting the dataset into training and test sets (usually an 80/20 split).
+  - Training the model on labeled reviews.
+  - Splitting the dataset into training and test sets (usually an 80/20 split).
 6. Result:
    Once the model is trained and evaluated, the results will be displayed as:
-   -Accuracy: How often the model correctly predicts the sentiment.
-   -Precision: The percentage of positive identifications that are correct.
-   -Recall: The percentage of actual positives that are correctly identified.
-   -F1-Score: A weighted average of precision and recall.
+   - Accuracy: How often the model correctly predicts the sentiment.
+   - Precision: The percentage of positive identifications that are correct.
+   - Recall: The percentage of actual positives that are correctly identified.
+   - F1-Score: A weighted average of precision and recall.
  
   
 
-##Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions, bug reports, and feature requests are welcome!
 
 1. Fork the repository.
@@ -84,7 +84,7 @@ If you'd like to contribute to this project, feel free to fork the repository an
 
 
 
-##Thank You for reading!
+## Thank You for reading!
 
 
 
